@@ -15,8 +15,14 @@ body {
   background-color: #fcfefe;
   position: relative;
   padding: 0;
-  top: 110px;
-  left: 220px;
+  top: 180px;
+  left: 490px;
+}
+@media screen and (max-width: 1500px) {
+  .outer-container {
+    top: 110px;
+    left: 240px;
+  }
 }
 .new-game-text {
   border: none;
